@@ -89,8 +89,24 @@ main {
   }
 }
 
+body > header {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
 header > a {
   text-decoration: none;
+}
+
+body > header h1 {
+  font-size: 1rem;
 }
 
 h1,
