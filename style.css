@@ -73,6 +73,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -80,7 +82,7 @@ main {
   margin: auto;
 }
 
-@media (max-width: calc(80ch + 4rem)) {
+@media (max-width: calc(80ch + 3rem)) {
   main {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -106,7 +108,7 @@ code {
 
 p,
 aside {
-  margin-bottom: 6pt;
+  margin-bottom: 0.5rem;
   text-align: justify;
   hyphens: auto;
 }
