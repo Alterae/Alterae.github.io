@@ -137,3 +137,15 @@ abbr {
   letter-spacing: 0.05rem;
   text-decoration: none;
 }
+
+dt {
+  font-style: italic;
+}
+
+dt::after {
+  content: ":";
+}
+
+dd {
+  margin-left: 4ch;
+}
