@@ -107,6 +107,18 @@ header > a {
 
 body > header h1 {
   font-size: 1rem;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.3rem;
 }
 
 h1,
@@ -136,6 +148,10 @@ a {
 abbr {
   letter-spacing: 0.05rem;
   text-decoration: none;
+}
+
+address {
+  font-style: unset;
 }
 
 dt {
