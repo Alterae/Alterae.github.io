@@ -146,7 +146,7 @@ a {
 }
 
 abbr {
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.04rem;
   text-decoration: none;
 }
 
@@ -163,5 +163,10 @@ dt::after {
 }
 
 dd {
-  margin-left: 4ch;
+  margin-left: 2rem;
+}
+
+aside {
+  border-left: 0.1rem solid var(--fg);
+  padding-left: 2rem;
 }
