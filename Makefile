@@ -2,11 +2,11 @@
 
 all: build
 
-build: clean
+build:
 	mksite build
 
 clean:
 	mksite clean
 
-serve: build
+serve: clean build
 	darkhttpd out/
