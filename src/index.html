@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>alterae’s Website</title>
+    <title>{{ data.site.title }}</title>
     <link rel="stylesheet" href="/style.css" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -13,7 +13,7 @@
   <body>
     <header>
       <a href="/">
-        <h1>[alterae's Website]</h1>
+        <h1>[{{ data.site.title }}]</h1>
       </a>
       <nav>
         <ul>
@@ -24,7 +24,7 @@
     <main>
       <article>
         <header>
-          <h1>alterae’s Website</h1>
+          <h1>{{ data.site.title }}</h1>
         </header>
         <p>
           I’m alterae. I’m a <abbr title="Computer Science">CS</abbr> major with
