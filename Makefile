@@ -6,7 +6,7 @@ build:
 	mksite build
 
 clean:
-	mksite clean
+	-mksite clean
 
 serve: clean build
 	darkhttpd out/
