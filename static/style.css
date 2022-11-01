@@ -63,8 +63,14 @@
 
 :root
 {
+	/*
 	--bg: #fff;
 	--fg: #111;
+	*/
+
+	/* solarized colors */
+	--bg: #fdf6e3; /* base3 */
+	--fg: #657b83; /* base00 */
 
 	font-family: "Source Serif 4", serif;
 	line-height: 1.5;
@@ -78,8 +84,14 @@
 {
 	:root
 	{
+		/* 
 		--bg: #111;
-		--fg: #eee;
+		--fg: #eee; 
+		*/
+		
+		/* solarized colors */
+		--bg: #002b36; /* base03 */
+		--fg: #839496; /* base0 */
 	}
 }
 
