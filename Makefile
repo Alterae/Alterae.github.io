@@ -18,4 +18,4 @@ out: $(srcs) $(statics)
 	@mksite $(flags) build
 
 watch:
-	fd . src static | entr -r make serve
+	fd . src static | entr -rn make serve
