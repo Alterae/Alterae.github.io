@@ -1,96 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ data.site.title }} :: Colophon</title>
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  </head>
-  <body>
-    <header>
-      <a href="/"><h1>[{{ data.site.title }}]</h1></a>
-      <nav>
-        <ul>
-          <li><a href="/blog/">Blog</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article>
-        <header>
-          <h1>About this website</h1>
-        </header>
-        <p>
-          alterae.github.io is currently hosted on
-          <a href="https://pages.github.com/">GitHub Pages</a>, and the source
-          code is available
-          <a href="https://github.com/alterae/alterae.github.io">on GitHub</a>.
-          At the moment, the entire site is built using plain
-          <abbr title="Hypertext Markup Language">HTML</abbr>, though that is
-          likely to change as it grows and I wind up needing a templating system
-          of some kind.
-        </p>
-        <p>
-          The styling is all done using vanilla
-          <abbr title="Cascading Style Sheets">CSS</abbr>, and unlike the
-          <abbr title="Hypertext Markup Language">HTML</abbr> I have no plans to
-          change that. I have tried a few
-          <abbr title="Cascading Style Sheets">CSS</abbr>
-          frameworks and I did not enjoy using them. Responsive design and dark
-          mode support are supported through the use of media queries, with no
-          JavaScript whatsoever.
-        </p>
-        <p>
-          The core principles behind the whole design are that the site should
-          be simple, accessible, aesthetically pleasing, and responsive. It
-          should show an attention to detail, provide a good reading experience,
-          and work on a widen range of devices, with minimal maintenance burden.
-        </p>
-        <h2>Typography</h2>
-        <p>
-          This website’s body text is set in
-          <a href="https://fonts.adobe.com/fonts/source-serif-4"
-            >Source Serif 4</a
-          >, which was chosen because it is readable, aesthetically pleasing,
-          has broad support for OpenType features, and is free.
-        </p>
-        <!-- I'm sorry for the inline styles. -->
-        <aside style="font-family: 'Source Serif 4'">
-          the quick brown fox jumps over the lazy dog<br />
-          THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG<br />
-          1234567890 `~!@#$%^&amp;*()-_=+[]{}\|;:'",.&lt;&gt;/?
-        </aside>
-        <p>
-          Headings are set in bold
-          <a href="https://www.ibm.com/plex/"
-            ><abbr title="International Business Machines">IBM</abbr> Plex
-            Serif</a
-          >. While too regular to make for pleasant body text, the bold variant
-          is clean, visually distinct from the body text font, and almost has a
-          slab serif vibe to it.
-        </p>
-        <aside style="font-family: 'IBM Plex Serif'">
-          the quick brown fox jumps over the lazy dog<br />
-          THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG<br />
-          1234567890 `~!@#$%^&amp;*()-_=+[]{}\|;:'",.&lt;&gt;/?
-        </aside>
-        <p>
-          <code>Code</code> is set in the wonderful
-          <a href="https://input.djr.com/">Input Mono</a>, which is reminiscent
-          of the typewriter fonts used in older programming books. The large
-          punctuation marks and other details make it extremely readable when
-          used to display source code, and it is my font of choice for code
-          editors and terminals.
-        </p>
-        <aside style="font-family: 'Input Mono Narrow'">
-          the quick brown fox jumps over the lazy dog<br />
-          THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG<br />
-          1234567890 `~!@#$%^&amp;*()-_=+[]{}\|;:'",.&lt;&gt;/?
-        </aside>
-      </article>
-    </main>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{ data.site.title }} :: Colophon</title>
+		<link rel="stylesheet" href="/style.css" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+	</head>
+	
+	<body>
+		<header>
+			<a href="/"><h1>[{{ data.site.title }}]</h1></a>
+			<nav>
+				<ul>
+					<li><a href="/blog/">Blog</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+			<article>
+				<header>
+					<h1>About this website</h1>
+				</header>
+				
+				<p>
+					alterae.github.io is currently hosted on
+					<a href="https://pages.github.com/">GitHub Pages</a>, and the source
+					code is available
+					<a href="https://github.com/alterae/alterae.github.io">on GitHub</a>.
+					At the moment, the entire site is built using plain
+					<abbr title="Hypertext Markup Language">HTML</abbr>, though that is
+					likely to change as it grows and I wind up needing a templating system
+					of some kind.
+				</p>
+				<p>
+					The styling is all done using vanilla
+					<abbr title="Cascading Style Sheets">CSS</abbr>, and unlike the
+					<abbr title="Hypertext Markup Language">HTML</abbr> I have no plans to
+					change that. I have tried a few
+					<abbr title="Cascading Style Sheets">CSS</abbr>
+					frameworks and I did not enjoy using them. Responsive design and dark
+					mode support are supported through the use of media queries, with no
+					JavaScript whatsoever.
+				</p>
+				<p>
+					The core principles behind the whole design are that the site should
+					be simple, accessible, aesthetically pleasing, and responsive. It
+					should show an attention to detail, provide a good reading experience,
+					and work on a widen range of devices, with minimal maintenance burden.
+				</p>
+				
+				<h2>Typography</h2>
+				<p>
+					This website’s body text is set in
+					<a href="https://fonts.adobe.com/fonts/source-serif-4"
+						>Source Serif 4</a
+					>, which was chosen because it is readable, aesthetically pleasing,
+					has broad support for OpenType features, and is free.
+				</p>
+				<!-- I'm sorry for the inline styles. -->
+				<aside style="font-family: 'Source Serif 4'">
+					the quick brown fox jumps over the lazy dog<br />
+					THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG<br />
+					1234567890 `~!@#$%^&amp;*()-_=+[]{}\|;:'",.&lt;&gt;/?
+				</aside>
+				<p>
+					Headings are set in bold
+					<a href="https://www.ibm.com/plex/"
+						><abbr title="International Business Machines">IBM</abbr> Plex
+						Serif</a
+					>. While too regular to make for pleasant body text, the bold variant
+					is clean, visually distinct from the body text font, and almost has a
+					slab serif vibe to it.
+				</p>
+				<aside style="font-family: 'IBM Plex Serif'">
+					the quick brown fox jumps over the lazy dog<br />
+					THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG<br />
+					1234567890 `~!@#$%^&amp;*()-_=+[]{}\|;:'",.&lt;&gt;/?
+				</aside>
+				<p>
+					<code>Code</code> is set in the wonderful
+					<a href="https://input.djr.com/">Input Mono</a>, which is reminiscent
+					of the typewriter fonts used in older programming books. The large
+					punctuation marks and other details make it extremely readable when
+					used to display source code, and it is my font of choice for code
+					editors and terminals.
+				</p>
+				<aside style="font-family: 'Input Mono Narrow'">
+					the quick brown fox jumps over the lazy dog<br />
+					THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG<br />
+					1234567890 `~!@#$%^&amp;*()-_=+[]{}\|;:'",.&lt;&gt;/?
+				</aside>
+			</article>
+		</main>
+	</body>
 </html>
