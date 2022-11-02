@@ -1,68 +1,58 @@
-@font-face
-{
+@font-face {
 	font-family: "Source Serif 4";
 	src: url("/fonts/SourceSerif4-Regular.otf") format("opentype");
 }
 
-@font-face
-{
+@font-face {
 	font-family: "Source Serif 4";
 	src: url("/fonts/SourceSerif4-Bold.otf") format("opentype");
 	font-weight: bold;
 }
 
-@font-face
-{
+@font-face {
 	font-family: "Source Serif 4";
 	src: url("/fonts/SourceSerif4-It.otf") format("opentype");
 	font-style: italic;
 }
 
-@font-face
-{
+@font-face {
 	font-family: "Source Serif 4";
 	src: url("/fonts/SourceSerif4-BoldIt.otf") format("opentype");
 	font-weight: bold;
 	font-style: italic;
 }
 
-@font-face
-{
+@font-face {
 	font-family: "IBM Plex Serif";
 	src: url("/fonts/IBMPlexSerif-Bold.otf") format("opentype");
 	font-weight: bold;
 }
 
-@font-face
-{
+@font-face {
 	font-family: "Input Mono Narrow";
 	src: url("/fonts/InputMonoNarrow-Regular.ttf") format("truetype");
 }
 
-@font-face
-{
+@font-face {
 	font-family: "Input Mono Narrow";
 	src: url("/fonts/InputMonoNarrow-Bold.ttf") format("truetype");
 	font-weight: bold;
 }
 
-@font-face
-{
+@font-face {
 	font-family: "Input Mono Narrow";
 	src: url("/fonts/InputMonoNarrow-Italic.ttf") format("truetype");
 	font-style: italic;
 }
 
-@font-face
-{
+@font-face {
 	font-family: "Input Mono Narrow";
 	src: url("/fonts/InputMonoNarrow-BoldItalic.ttf") format("truetype");
 	font-weight: bold;
 	font-style: italic;
 }
 
-:root
-{
+:root {
 	/*
 	--bg: #fff;
 	--fg: #111;
@@ -80,76 +70,64 @@
 	color: var(--fg);
 }
 
-@media screen and (prefers-color-scheme: dark)
-{
-	:root
-	{
+@media screen and (prefers-color-scheme: dark) {
+	:root {
 		/* 
 		--bg: #111;
 		--fg: #eee; 
 		*/
-		
+
 		/* solarized colors */
 		--bg: #002b36; /* base03 */
 		--fg: #839496; /* base0 */
 	}
 }
 
-*
-{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-main
-{
+main {
 	max-width: 80ch;
 	margin: auto;
 }
 
-@media (max-width: calc(80ch + 3rem))
-{
-	main
-	{
+@media (max-width: calc(80ch + 3rem)) {
+	main {
 		margin-left: 1.5rem;
 		margin-right: 1.5rem;
 	}
 }
 
-body > header
-{
+body > header {
 	display: flex;
 	padding: 1.5rem;
 	justify-content: space-between;
 }
 
-nav ul
-{
+nav ul {
 	list-style: none;
 	display: flex;
 	gap: 1rem;
 }
 
-header > a
-{
+header > a {
 	text-decoration: none;
 }
 
-body > header h1
-{
+body > header h1 {
 	font-size: 1rem;
 	margin: 0;
 }
 
-h1
-{
+h1 {
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
 }
 
-h2
-{
+h2 {
 	font-size: 1.25rem;
 	margin-top: 0.7rem;
 	margin-bottom: 0.3rem;
@@ -157,60 +135,50 @@ h2
 
 h1,
 h2,
-h3
-{
+h3 {
 	font-family: "IBM Plex Serif", serif;
 	font-weight: bold;
 }
 
 pre,
-code
-{
+code {
 	font-family: "Input Mono Narrow", monospace;
 	font-size: 0.95em;
 }
 
 p,
-aside
-{
+aside {
 	margin-bottom: 0.5rem;
 	text-align: justify;
 	hyphens: auto;
 }
 
-a
-{
+a {
 	color: var(--fg);
 }
 
-abbr
-{
+abbr {
 	letter-spacing: 0.04rem;
 	text-decoration: none;
 }
 
-address
-{
+address {
 	font-style: unset;
 }
 
-dt
-{
+dt {
 	font-style: italic;
 }
 
-dt::after
-{
+dt::after {
 	content: ":";
 }
 
-dd
-{
+dd {
 	margin-left: 2rem;
 }
 
-aside
-{
+aside {
 	border-left: 0.1rem solid var(--fg);
 	padding-left: 2rem;
 }
