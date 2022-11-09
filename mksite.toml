@@ -5,7 +5,7 @@ dirs.layout = "layout" # The layout directory is where layouts live.
 
 # The contents of the data section are made available in template rendering.
 [data]
-site.title = "alterae’s Website"
+site.title = "~alterae"
 
 # Transforms are used to further transform content after applying templating.
 [transforms]
