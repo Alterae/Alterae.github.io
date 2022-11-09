@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Another Static Site Generator :: Blog :: {{ data.site.title }}
+    </title>
+    <meta
+      name="description"
+      content="On building a static site generator in Rust."
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="/">{{ data.site.title }}</a> / <a href="/blog">Blog</a></h1>
+      <nav>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <header>
+          <h1>Another Static Site Generator</h1>
+        </header>
+        <p>
+          Last month, instead of focusing on university, I spent a fair amount
+          of time working on <a href="/mksite">mksite</a>, a static site
+          generator. Was this the best use of my time? Absolutely not. Did I
+          finish writing it? Not really. Was it an interesting and informative
+          experience nonetheless? Absolutely.
+        </p>
+
+        <section>
+          <h2>Why?</h2>
+          <p>
+            Why did I do this? Does the world really need yet another static
+            site generator? Don’t we already have
+            <a href="https://jamstack.org/generators/">plenty?</a>
+          </p>
+          <p>
+            Well, the world at large probably doesn’t need this, but I do. I’ve
+            tried a lot of static site generators over the years, and not one of
+            them has really worked in a way I actually like, so I decided to
+            write something that would suit my (admittedly somewhat specific)
+            needs and wants:
+          </p>
+
+          <h3>Minimal config with sane defaults</h3>
+          <p>
+            When I’m making a website, the last thing I want to do is fiddle
+            with a lot of settings before I can actually do anything. I wanted
+            to build a tool which would do the correct<sup
+              ><a id="ref:1" href="#fn:1">1</a></sup
+            >
+            thing right out of the box.
+          </p>
+
+          <h3>Not limited to markdown</h3>
+          <p>
+            Markdown is wonderful, but it has some serious limitations is far
+            from the only format I want to author content in (I’m writing this
+            blog post in plain HTML, for example.) And even when I am writing
+            markdown, a lot of static site generators rely on their own built-in
+            markdown processors, which is a problem if I want to use features of
+            a different markdown dialect, or simply prefer one parser over
+            another.
+          </p>
+
+          <h3>Arbitrary input formats</h3>
+          <p>
+            Obviously most websites are made of html files, but it would be nice
+            to plug in other arbitrary asset processing and output pages and
+            other files in whatever format I please.
+          </p>
+        </section>
+
+        <section>
+          <h2>TODO</h2>
+
+          <!-- TODO -->
+        </section>
+
+        <footer>
+          <h2>Footnotes</h2>
+          <ol>
+            <li id="fn:1">
+              <dfn>Correct</dfn> in this context is defined as
+              <q>whatever I personally think the thing should do.</q>
+              <a href="#ref:1">↩</a>
+            </li>
+          </ol>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
