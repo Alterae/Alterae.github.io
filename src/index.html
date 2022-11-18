@@ -1,88 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ data.site.title }}</title>
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  </head>
+<header>
+  <h1><a href="/">{{ data.site.title }}</a></h1>
 
-  <body>
+  <nav>
+    <ul>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <article>
     <header>
-      <h1><a href="/">{{ data.site.title }}</a></h1>
-
-      <nav>
-        <ul>
-          <li><a href="/blog/">Blog</a></li>
-        </ul>
-      </nav>
+      <h1>{{ data.site.title }}</h1>
     </header>
 
-    <main>
-      <article>
-        <header>
-          <h1>{{ data.site.title }}</h1>
-        </header>
+    <p>
+      I’m alterae. I’m a
+      <abbr title="Computer Science">CS</abbr> major with too many interests,
+      many of which ultimately involve computers in one way or another. This is
+      my website, and if you’re interested you can read about how it was made in
+      the <a href="/colophon.html">colophon</a>.
+    </p>
+    <dl>
+      <dt>Pronouns</dt>
+      <dd>she/her</dd>
 
-        <p>
-          I’m alterae. I’m a
-          <abbr title="Computer Science">CS</abbr> major with too many
-          interests, many of which ultimately involve computers in one way or
-          another. This is my website, and if you’re interested you can read
-          about how it was made in the <a href="/colophon.html">colophon</a>.
-        </p>
-        <dl>
-          <dt>Pronouns</dt>
-          <dd>she/her</dd>
+      <dt>Timezone</dt>
+      <dd>
+        <abbr title="Universal Coordinated Time">UTC</abbr>−07:00 (standard
+        time), <abbr title="Universal Coordinated Time">UTC</abbr>−06:00
+        (daylight saving time)
+      </dd>
+    </dl>
 
-          <dt>Timezone</dt>
-          <dd>
-            <abbr title="Universal Coordinated Time">UTC</abbr>−07:00 (standard
-            time), <abbr title="Universal Coordinated Time">UTC</abbr>−06:00
-            (daylight saving time)
-          </dd>
-        </dl>
+    <h2>Projects</h2>
+    <dl>
+      <dt><a href="/mksite">mksite</a></dt>
+      <dd>A file format-agnostic static site generator</dd>
 
-        <h2>Projects</h2>
-        <dl>
-          <dt><a href="/mksite">mksite</a></dt>
-          <dd>A file format-agnostic static site generator</dd>
+      <dt>
+        <a href="https://github.com/alterae/choose">choose</a>
+      </dt>
+      <dd>A command-line tool for picking things randomly</dd>
+    </dl>
 
-          <dt>
-            <a href="https://github.com/alterae/choose">choose</a>
-          </dt>
-          <dd>A command-line tool for picking things randomly</dd>
-        </dl>
+    <h2>Contact</h2>
+    <address>
+      <dl>
+        <dt>Discord</dt>
+        <dd>@alterae#0258</dd>
 
-        <h2>Contact</h2>
-        <address>
-          <dl>
-            <dt>Discord</dt>
-            <dd>@alterae#0258</dd>
+        <dt>Email</dt>
+        <dd>(Message me on another service and ask, please)</dd>
 
-            <dt>Email</dt>
-            <dd>(Message me on another service and ask, please)</dd>
+        <dt>GitHub</dt>
+        <dd>
+          <a href="https://github.com/alterae" rel="me">alterae</a>
+        </dd>
 
-            <dt>GitHub</dt>
-            <dd>
-              <a href="https://github.com/alterae" rel="me">alterae</a>
-            </dd>
+        <dt>Twitter</dt>
+        <dd>
+          <a href="https://twitter.com/_alterae" rel="me">@_alterae</a>
+        </dd>
 
-            <dt>Twitter</dt>
-            <dd>
-              <a href="https://twitter.com/_alterae" rel="me">@_alterae</a>
-            </dd>
-
-            <dt>Mastodon</dt>
-            <dd>
-              <a href="https://tech.lgbt/@alterae" rel="me">@alterae@tech.lgbt</a>
-            </dd>
-          </dl>
-        </address>
-      </article>
-    </main>
-  </body>
-</html>
+        <dt>Mastodon</dt>
+        <dd>
+          <a href="https://tech.lgbt/@alterae" rel="me">@alterae@tech.lgbt</a>
+        </dd>
+      </dl>
+    </address>
+  </article>
+</main>

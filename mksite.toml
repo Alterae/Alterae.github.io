@@ -7,6 +7,14 @@ dirs.layout = "layout" # The layout directory is where layouts live.
 [data]
 site.title = "~alterae"
 
+[data.page_titles]
+# TODO: refactor these to be segmented arrays
+"src/index.html" = ""
+"src/colophon.html" = " / Colophon"
+"src/404.html" = " / 404"
+"src/blog/index.html" = " / Blog"
+"src/blog/mksite.html" = "/ Blog / Another Static Site Generator"
+
 # Transforms are used to further transform content after applying templating.
 [transforms]
 # md.html = "pandoc -f markdown -t html"
